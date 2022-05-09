@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alayt/CLionProjects/ch0Circle/Circle.h
+iostream
+-
+
+/Users/alayt/CLionProjects/ch0Circle/main.cpp
+Circle.h
+/Users/alayt/CLionProjects/ch0Circle/Circle.h
+iostream
+-
+string
+-
+
